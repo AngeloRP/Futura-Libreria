@@ -1,0 +1,16 @@
+<input type="text" name="{{label}}" value="{{label}}" readonly>
+<select #selected (change)="onChange(selected.value)">
+  <option value="primero" >Primero</option>
+  <option value="Segundo" >Segundo</option>
+  <option value="Tercero" >Tercero</option>
+</select>
+
+<script src="default-passive-events.js"></script>
+  <script>
+    document.addEventListener('mousewheel', onClick, {passive: false},true); // {passive: true, capture: false}
+
+
+    function onClick() {
+      console.log('onClick', this);
+    }
+  </script>

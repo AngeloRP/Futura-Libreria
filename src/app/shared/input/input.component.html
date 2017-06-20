@@ -1,3 +1,2 @@
-<p>
-  input works!
-</p>
+<input type="text" name="{{label}}" value="{{label}}"  readonly>
+<input [(ngModel)] ="valueInput" #input="ngModel" type="{{type}}" (keyup)="onChange()" required>

@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ButtonComponent } from './button.component';
+import { FormsModule } from '@angular/forms';
 
 describe('ButtonComponent', () => {
   let component: ButtonComponent;
@@ -17,6 +18,13 @@ describe('ButtonComponent', () => {
     fixture = TestBed.createComponent(ButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+  });
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [FormsModule],
+      declarations: [ ButtonComponent]
+    });
   });
 
   it('should create', () => {
