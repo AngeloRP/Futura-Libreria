@@ -1,8 +1,6 @@
 <input type="text" name="{{label}}" value="{{label}}" readonly>
 <select #selected (change)="onChange(selected.value)">
-  <option value="primero" >Primero</option>
-  <option value="Segundo" >Segundo</option>
-  <option value="Tercero" >Tercero</option>
+  <option *ngFor="let c of _data" [value]="c.id" >{{c.name}}</option>
 </select>
 
 <script src="default-passive-events.js"></script>

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { InputComponent } from '../input/input.component';
 
+
 @Component({
   selector: 'app-select',
   templateUrl: './select.component.html',
@@ -8,16 +9,19 @@ import { InputComponent } from '../input/input.component';
 })
 export class SelectComponent implements OnInit {
   @Input() label: string;
-  @Input() data: any[];
+  @Input() data: string;
   @Output() derp = new EventEmitter<string>();
   selectedValue = null;
+  _data: any[];
   constructor() {
 
 
   }
 
   ngOnInit() {
-    console.log(this.selectedValue);
+    console.log(this.data);
+    this._data = JSON.parse(this.data);
+    console.log( this._data);
   }
 
   onChange(value: any) {
