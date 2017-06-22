@@ -1,0 +1,1469 @@
+{
+  "success": true,
+  "data": [
+    {
+      "userId": 1,
+      "companyId": null,
+      "storeId": null,
+      "roleId": 1,
+      "username": "cteevin001",
+      "firstName": "Carlos",
+      "lastName": "Teevin Andrade",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 2,
+      "insDatetime": "2016-09-21 18:06:00",
+      "updUserId": 2,
+      "updDatetime": "2017-06-15 09:40:41",
+      "insertedBy": {},
+      "updatedBy": {},
+      "company": {},
+      "store": {},
+      "role": {
+        "roleId": 1,
+        "name": "Super ",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 1,
+            "resourceSetId": null,
+            "name": "Back Dashboard",
+            "description": "Backend Dashboard",
+            "route": "app/companies",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 1
+          },
+          {
+            "resourceId": 2,
+            "resourceSetId": 1,
+            "name": "Companies",
+            "description": "Companies & Coins Management",
+            "route": "app/companies",
+            "icon": "fa fa-building",
+            "position": 2,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 2
+          },
+          {
+            "resourceId": 3,
+            "resourceSetId": 1,
+            "name": "Stores (Back)",
+            "description": "Stores & Coins Management",
+            "route": "app/stores",
+            "icon": "fa fa-shopping-bag",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 3
+          },
+          {
+            "resourceId": 4,
+            "resourceSetId": 1,
+            "name": "Office Users",
+            "description": "Backend Users Management",
+            "route": "app/users",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 4
+          },
+          {
+            "resourceId": 6,
+            "resourceSetId": 1,
+            "name": "Resource Sets",
+            "description": "Resource Sets List",
+            "route": "app/resource-sets",
+            "icon": "fa fa-th-large",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 6
+          },
+          {
+            "resourceId": 7,
+            "resourceSetId": 1,
+            "name": "Resources",
+            "description": "Resources List",
+            "route": "app/resources",
+            "icon": "fa fa-th",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 7
+          },
+          {
+            "resourceId": 8,
+            "resourceSetId": 1,
+            "name": "Roles",
+            "description": "Roles Management",
+            "route": "app/roles",
+            "icon": "fa fa-sitemap",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 1,
+            "_pivot_resourceId": 8
+          }
+        ]
+      }
+    },
+    {
+      "userId": 300,
+      "companyId": 1,
+      "storeId": null,
+      "roleId": 5,
+      "username": "arodas910",
+      "firstName": "Angelo",
+      "lastName": "Rodas Pacco",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 1,
+      "insDatetime": "2017-06-20 19:22:11",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 1,
+        "names": "Carlos Teevin Andrade",
+        "username": "cteevin001"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 1,
+        "name": "Blizzard Entertainment",
+        "active": 1
+      },
+      "store": {},
+      "role": {
+        "roleId": 5,
+        "name": "Company Manager",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 12,
+            "resourceSetId": null,
+            "name": "Co. Dashboard",
+            "description": "Company Dasboard",
+            "route": "app/stores",
+            "icon": "fa fa-tachometer",
+            "position": 21,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 12
+          },
+          {
+            "resourceId": 13,
+            "resourceSetId": 3,
+            "name": "Stores (Company)",
+            "description": "Stores & Coins Assignation",
+            "route": "app/stores",
+            "icon": "fa fa-shopping-bag",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 3,
+              "name": "Co. Management",
+              "description": "Company Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 13
+          },
+          {
+            "resourceId": 14,
+            "resourceSetId": 3,
+            "name": "Store Manager Users",
+            "description": "Store Users Management",
+            "route": "app/users",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 3,
+              "name": "Co. Management",
+              "description": "Company Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 14
+          },
+          {
+            "resourceId": 15,
+            "resourceSetId": 4,
+            "name": "Company Player Registrations",
+            "description": "Player Registrations only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-gamepad",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 15
+          },
+          {
+            "resourceId": 16,
+            "resourceSetId": 4,
+            "name": "Company Sales (Stores & Online)",
+            "description": "Sales only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 16
+          },
+          {
+            "resourceId": 17,
+            "resourceSetId": 4,
+            "name": "Company Shared Earnings",
+            "description": "Sharing only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 17
+          },
+          {
+            "resourceId": 18,
+            "resourceSetId": 4,
+            "name": "Store & Cashier Sales",
+            "description": "Store & Cashier Sales",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 18
+          }
+        ]
+      }
+    },
+    {
+      "userId": 301,
+      "companyId": 3,
+      "storeId": null,
+      "roleId": 6,
+      "username": "dquintanilla652",
+      "firstName": "Diana",
+      "lastName": "Quintanilla Perez",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 300,
+      "insDatetime": "2017-06-20 19:46:46",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 300,
+        "names": "Angelo Rodas Pacco",
+        "username": "arodas910"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 3,
+        "name": "Artic Games",
+        "active": 1
+      },
+      "store": {},
+      "role": {
+        "roleId": 6,
+        "name": "Store Manager",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 19,
+            "resourceSetId": null,
+            "name": "Store Dashboard",
+            "description": "Latest Stpre Sales",
+            "route": "app/users",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 19
+          },
+          {
+            "resourceId": 20,
+            "resourceSetId": 5,
+            "name": "Store Cashier Users",
+            "description": "Cashier Users Management",
+            "route": "app/users",
+            "icon": "fa fa-address-card",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 5,
+              "name": "St. Management",
+              "description": "Store Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 20
+          },
+          {
+            "resourceId": 21,
+            "resourceSetId": 6,
+            "name": "Manager Sales",
+            "description": "POS",
+            "route": "app/cashiers/cashiers-new",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 6,
+              "name": "St. Ops",
+              "description": "Store Operations",
+              "icon": "glyphicons-money",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 21
+          },
+          {
+            "resourceId": 26,
+            "resourceSetId": 8,
+            "name": "Cashier Latest Sales",
+            "description": "Cashier latest 10 tx",
+            "route": "app/cashiers/cashier-transactions",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 26
+          }
+        ]
+      }
+    },
+    {
+      "userId": 302,
+      "companyId": 3,
+      "storeId": 5,
+      "roleId": 7,
+      "username": "aknblade405",
+      "firstName": "Arthur",
+      "lastName": "King Blade",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 301,
+      "insDatetime": "2017-06-20 19:47:59",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 301,
+        "names": "Diana Quintanilla Perez",
+        "username": "dquintanilla652"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 3,
+        "name": "Artic Games",
+        "active": 1
+      },
+      "store": {
+        "storeId": 5,
+        "name": "Artic Point 1",
+        "active": 1
+      },
+      "role": {
+        "roleId": 7,
+        "name": "Cashier",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 25,
+            "resourceSetId": 8,
+            "name": "Cashier Sales",
+            "description": "POS",
+            "route": "app/cashiers/cashiers-new",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 7,
+            "_pivot_resourceId": 25
+          },
+          {
+            "resourceId": 26,
+            "resourceSetId": 8,
+            "name": "Cashier Latest Sales",
+            "description": "Cashier latest 10 tx",
+            "route": "app/cashiers/cashier-transactions",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 7,
+            "_pivot_resourceId": 26
+          }
+        ]
+      }
+    },
+    {
+      "userId": 303,
+      "companyId": null,
+      "storeId": null,
+      "roleId": 2,
+      "username": "cvoorh998",
+      "firstName": "Jax",
+      "lastName": "Voorhees",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 1,
+      "insDatetime": "2017-06-21 09:48:43",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 1,
+        "names": "Carlos Teevin Andrade",
+        "username": "cteevin001"
+      },
+      "updatedBy": {},
+      "company": {},
+      "store": {},
+      "role": {
+        "roleId": 2,
+        "name": "Administrator",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 1,
+            "resourceSetId": null,
+            "name": "Back Dashboard",
+            "description": "Backend Dashboard",
+            "route": "app/companies",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 1
+          },
+          {
+            "resourceId": 2,
+            "resourceSetId": 1,
+            "name": "Companies",
+            "description": "Companies & Coins Management",
+            "route": "app/companies",
+            "icon": "fa fa-building",
+            "position": 2,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 2
+          },
+          {
+            "resourceId": 3,
+            "resourceSetId": 1,
+            "name": "Stores (Back)",
+            "description": "Stores & Coins Management",
+            "route": "app/stores",
+            "icon": "fa fa-shopping-bag",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 3
+          },
+          {
+            "resourceId": 4,
+            "resourceSetId": 1,
+            "name": "Office Users",
+            "description": "Backend Users Management",
+            "route": "app/users",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 4
+          },
+          {
+            "resourceId": 5,
+            "resourceSetId": 1,
+            "name": "Company Users (Back)",
+            "description": "Company Users Management",
+            "route": "app/pendiente",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 5
+          },
+          {
+            "resourceId": 6,
+            "resourceSetId": 1,
+            "name": "Resource Sets",
+            "description": "Resource Sets List",
+            "route": "app/resource-sets",
+            "icon": "fa fa-th-large",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 6
+          },
+          {
+            "resourceId": 7,
+            "resourceSetId": 1,
+            "name": "Resources",
+            "description": "Resources List",
+            "route": "app/resources",
+            "icon": "fa fa-th",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 7
+          },
+          {
+            "resourceId": 8,
+            "resourceSetId": 1,
+            "name": "Roles",
+            "description": "Roles Management",
+            "route": "app/roles",
+            "icon": "fa fa-sitemap",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 8
+          },
+          {
+            "resourceId": 9,
+            "resourceSetId": 2,
+            "name": "Player Registrations",
+            "description": "Player Registrations Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-gamepad",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 9
+          },
+          {
+            "resourceId": 10,
+            "resourceSetId": 2,
+            "name": "Sales (Stores & Online)",
+            "description": "Sales Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 4,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 10
+          },
+          {
+            "resourceId": 11,
+            "resourceSetId": 2,
+            "name": "Shared Earnings",
+            "description": "Sharings Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-pie-chart",
+            "position": 53,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 11
+          }
+        ]
+      }
+    },
+    {
+      "userId": 304,
+      "companyId": 2,
+      "storeId": null,
+      "roleId": 5,
+      "username": "chernandez724",
+      "firstName": "Clemens",
+      "lastName": "Hernandez",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 1,
+      "insDatetime": "2017-06-21 09:50:17",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 1,
+        "names": "Carlos Teevin Andrade",
+        "username": "cteevin001"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 2,
+        "name": "Clemens",
+        "active": 1
+      },
+      "store": {},
+      "role": {
+        "roleId": 5,
+        "name": "Company Manager",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 12,
+            "resourceSetId": null,
+            "name": "Co. Dashboard",
+            "description": "Company Dasboard",
+            "route": "app/stores",
+            "icon": "fa fa-tachometer",
+            "position": 21,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 12
+          },
+          {
+            "resourceId": 13,
+            "resourceSetId": 3,
+            "name": "Stores (Company)",
+            "description": "Stores & Coins Assignation",
+            "route": "app/stores",
+            "icon": "fa fa-shopping-bag",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 3,
+              "name": "Co. Management",
+              "description": "Company Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 13
+          },
+          {
+            "resourceId": 14,
+            "resourceSetId": 3,
+            "name": "Store Manager Users",
+            "description": "Store Users Management",
+            "route": "app/users",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 3,
+              "name": "Co. Management",
+              "description": "Company Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 14
+          },
+          {
+            "resourceId": 15,
+            "resourceSetId": 4,
+            "name": "Company Player Registrations",
+            "description": "Player Registrations only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-gamepad",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 15
+          },
+          {
+            "resourceId": 16,
+            "resourceSetId": 4,
+            "name": "Company Sales (Stores & Online)",
+            "description": "Sales only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 16
+          },
+          {
+            "resourceId": 17,
+            "resourceSetId": 4,
+            "name": "Company Shared Earnings",
+            "description": "Sharing only Totals",
+            "route": "app/pendiente",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 17
+          },
+          {
+            "resourceId": 18,
+            "resourceSetId": 4,
+            "name": "Store & Cashier Sales",
+            "description": "Store & Cashier Sales",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 4,
+              "name": "Co. Reports",
+              "description": "Company Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 5,
+            "_pivot_resourceId": 18
+          }
+        ]
+      }
+    },
+    {
+      "userId": 305,
+      "companyId": 2,
+      "storeId": 3,
+      "roleId": 6,
+      "username": "wgrunfeld209",
+      "firstName": "Wolf",
+      "lastName": "Grunfeld",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 304,
+      "insDatetime": "2017-06-21 09:54:53",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 304,
+        "names": "Clemens Hernandez",
+        "username": "chernandez724"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 2,
+        "name": "Clemens",
+        "active": 1
+      },
+      "store": {
+        "storeId": 3,
+        "name": "Clemens 1",
+        "active": 1
+      },
+      "role": {
+        "roleId": 6,
+        "name": "Store Manager",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 19,
+            "resourceSetId": null,
+            "name": "Store Dashboard",
+            "description": "Latest Stpre Sales",
+            "route": "app/users",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 19
+          },
+          {
+            "resourceId": 20,
+            "resourceSetId": 5,
+            "name": "Store Cashier Users",
+            "description": "Cashier Users Management",
+            "route": "app/users",
+            "icon": "fa fa-address-card",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 5,
+              "name": "St. Management",
+              "description": "Store Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 20
+          },
+          {
+            "resourceId": 21,
+            "resourceSetId": 6,
+            "name": "Manager Sales",
+            "description": "POS",
+            "route": "app/cashiers/cashiers-new",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 6,
+              "name": "St. Ops",
+              "description": "Store Operations",
+              "icon": "glyphicons-money",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 21
+          },
+          {
+            "resourceId": 26,
+            "resourceSetId": 8,
+            "name": "Cashier Latest Sales",
+            "description": "Cashier latest 10 tx",
+            "route": "app/cashiers/cashier-transactions",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 26
+          }
+        ]
+      }
+    },
+    {
+      "userId": 306,
+      "companyId": 2,
+      "storeId": 4,
+      "roleId": 6,
+      "username": "cteevin850",
+      "firstName": "Carlos",
+      "lastName": "Teevin",
+      "changePassword": 1,
+      "active": 1,
+      "insUserId": 304,
+      "insDatetime": "2017-06-21 09:55:32",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 304,
+        "names": "Clemens Hernandez",
+        "username": "chernandez724"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 2,
+        "name": "Clemens",
+        "active": 1
+      },
+      "store": {
+        "storeId": 4,
+        "name": "Clemens 2",
+        "active": 1
+      },
+      "role": {
+        "roleId": 6,
+        "name": "Store Manager",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 19,
+            "resourceSetId": null,
+            "name": "Store Dashboard",
+            "description": "Latest Stpre Sales",
+            "route": "app/users",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 19
+          },
+          {
+            "resourceId": 20,
+            "resourceSetId": 5,
+            "name": "Store Cashier Users",
+            "description": "Cashier Users Management",
+            "route": "app/users",
+            "icon": "fa fa-address-card",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 5,
+              "name": "St. Management",
+              "description": "Store Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 20
+          },
+          {
+            "resourceId": 21,
+            "resourceSetId": 6,
+            "name": "Manager Sales",
+            "description": "POS",
+            "route": "app/cashiers/cashiers-new",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 6,
+              "name": "St. Ops",
+              "description": "Store Operations",
+              "icon": "glyphicons-money",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 21
+          },
+          {
+            "resourceId": 26,
+            "resourceSetId": 8,
+            "name": "Cashier Latest Sales",
+            "description": "Cashier latest 10 tx",
+            "route": "app/cashiers/cashier-transactions",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 6,
+            "_pivot_resourceId": 26
+          }
+        ]
+      }
+    },
+    {
+      "userId": 307,
+      "companyId": null,
+      "storeId": null,
+      "roleId": 2,
+      "username": "mrobles230",
+      "firstName": "Milu",
+      "lastName": "Robles",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 303,
+      "insDatetime": "2017-06-21 09:56:57",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 303,
+        "names": "Jax Voorhees",
+        "username": "cvoorh998"
+      },
+      "updatedBy": {},
+      "company": {},
+      "store": {},
+      "role": {
+        "roleId": 2,
+        "name": "Administrator",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 1,
+            "resourceSetId": null,
+            "name": "Back Dashboard",
+            "description": "Backend Dashboard",
+            "route": "app/companies",
+            "icon": "fa fa-tachometer",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {},
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 1
+          },
+          {
+            "resourceId": 2,
+            "resourceSetId": 1,
+            "name": "Companies",
+            "description": "Companies & Coins Management",
+            "route": "app/companies",
+            "icon": "fa fa-building",
+            "position": 2,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 2
+          },
+          {
+            "resourceId": 3,
+            "resourceSetId": 1,
+            "name": "Stores (Back)",
+            "description": "Stores & Coins Management",
+            "route": "app/stores",
+            "icon": "fa fa-shopping-bag",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 3
+          },
+          {
+            "resourceId": 4,
+            "resourceSetId": 1,
+            "name": "Office Users",
+            "description": "Backend Users Management",
+            "route": "app/users",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 4
+          },
+          {
+            "resourceId": 5,
+            "resourceSetId": 1,
+            "name": "Company Users (Back)",
+            "description": "Company Users Management",
+            "route": "app/pendiente",
+            "icon": "fa fa-users",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 5
+          },
+          {
+            "resourceId": 6,
+            "resourceSetId": 1,
+            "name": "Resource Sets",
+            "description": "Resource Sets List",
+            "route": "app/resource-sets",
+            "icon": "fa fa-th-large",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 6
+          },
+          {
+            "resourceId": 7,
+            "resourceSetId": 1,
+            "name": "Resources",
+            "description": "Resources List",
+            "route": "app/resources",
+            "icon": "fa fa-th",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 7
+          },
+          {
+            "resourceId": 8,
+            "resourceSetId": 1,
+            "name": "Roles",
+            "description": "Roles Management",
+            "route": "app/roles",
+            "icon": "fa fa-sitemap",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 1,
+              "name": "Back Management",
+              "description": "Backend Management",
+              "icon": "glyphicons-package",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 8
+          },
+          {
+            "resourceId": 9,
+            "resourceSetId": 2,
+            "name": "Player Registrations",
+            "description": "Player Registrations Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-gamepad",
+            "position": 1,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 9
+          },
+          {
+            "resourceId": 10,
+            "resourceSetId": 2,
+            "name": "Sales (Stores & Online)",
+            "description": "Sales Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-money",
+            "position": 4,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 10
+          },
+          {
+            "resourceId": 11,
+            "resourceSetId": 2,
+            "name": "Shared Earnings",
+            "description": "Sharings Totals & Details",
+            "route": "app/pendiente",
+            "icon": "fa fa-pie-chart",
+            "position": 53,
+            "ResourceActive": 0,
+            "resourceSet": {
+              "resourceSetId": 2,
+              "name": "Back Reports",
+              "description": "Backend Reports",
+              "icon": "glyphicons-stats",
+              "position": 2,
+              "active": 1
+            },
+            "_pivot_roleId": 2,
+            "_pivot_resourceId": 11
+          }
+        ]
+      }
+    },
+    {
+      "userId": 308,
+      "companyId": 2,
+      "storeId": 3,
+      "roleId": 7,
+      "username": "esueyoshi433",
+      "firstName": "Enrique",
+      "lastName": "Sueyoshi",
+      "changePassword": 0,
+      "active": 1,
+      "insUserId": 305,
+      "insDatetime": "2017-06-21 09:57:56",
+      "updUserId": null,
+      "updDatetime": null,
+      "insertedBy": {
+        "userId": 305,
+        "names": "Wolf Grunfeld",
+        "username": "wgrunfeld209"
+      },
+      "updatedBy": {},
+      "company": {
+        "companyId": 2,
+        "name": "Clemens",
+        "active": 1
+      },
+      "store": {
+        "storeId": 3,
+        "name": "Clemens 1",
+        "active": 1
+      },
+      "role": {
+        "roleId": 7,
+        "name": "Cashier",
+        "active": 1,
+        "resources": [
+          {
+            "resourceId": 25,
+            "resourceSetId": 8,
+            "name": "Cashier Sales",
+            "description": "POS",
+            "route": "app/cashiers/cashiers-new",
+            "icon": "fa fa-money",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 7,
+            "_pivot_resourceId": 25
+          },
+          {
+            "resourceId": 26,
+            "resourceSetId": 8,
+            "name": "Cashier Latest Sales",
+            "description": "Cashier latest 10 tx",
+            "route": "app/cashiers/cashier-transactions",
+            "icon": "fa fa-bar-chart",
+            "position": 1,
+            "ResourceActive": 1,
+            "resourceSet": {
+              "resourceSetId": 8,
+              "name": "POS Ops",
+              "description": "POS Operations",
+              "icon": "glyphicons-money",
+              "position": 1,
+              "active": 1
+            },
+            "_pivot_roleId": 7,
+            "_pivot_resourceId": 26
+          }
+        ]
+      }
+    }
+  ]
+}

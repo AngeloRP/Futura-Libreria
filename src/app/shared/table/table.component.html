@@ -1,0 +1,13 @@
+<app-filter-text (changed)="filterChanged($event)"></app-filter-text>
+<table>
+  <thead>
+    <tr>
+      <th *ngFor="let header of table.headers">{{header}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of filteredData">
+      <td *ngFor="let item of row">{{item}}</td>
+    </tr>
+  </tbody>
+</table>
