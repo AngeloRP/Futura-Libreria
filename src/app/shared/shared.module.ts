@@ -8,7 +8,10 @@ import { SelectComponent } from './select/select.component';
 import { FilterTextComponent } from './filter-text/filter-text.component';
 import { TableComponent } from './table/table.component';
 import { FilterTextService } from './filter-text/filter-text.service';
-import { DtInstanceComponent } from './table/tablePrueba.component';
+//import { DtInstanceComponent } from './table/tablePrueba.component';
+import { RowComponent } from './row/row.component';
+import { HeaderComponent } from './header/header.component';
+import { OrderColumnService } from './order-column.service';
 
 @NgModule({
   imports: [
@@ -21,17 +24,20 @@ import { DtInstanceComponent } from './table/tablePrueba.component';
   SelectComponent,
   FilterTextComponent,
   TableComponent,
-  DtInstanceComponent],
+  RowComponent,
+  HeaderComponent
+  ],
   exports: [
     ButtonComponent,
     BackgroundDirective,
     InputComponent,
     SelectComponent,
     FilterTextComponent,
-    TableComponent,
-    DtInstanceComponent],
+    TableComponent
+    ],
   providers:[
-    FilterTextService
+    FilterTextService,
+    OrderColumnService
   ]
 })
 export class SharedModule { }

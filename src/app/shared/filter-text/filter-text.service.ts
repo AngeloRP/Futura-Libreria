@@ -13,9 +13,16 @@ export class FilterTextService {
       let filtered = originalList.filter(item => {
         let match = false;
         for (let prop of props) {
-          if (item[prop].toString().toLowerCase().indexOf(data) > -1) {
-            match = true;
-            break;
+          let element = item[prop];
+          if (element.type != 3) {
+            if (element.type == 2) {
+
+            } else {
+              if (element.data.toString().toLowerCase().indexOf(data) > -1){
+                match = true;
+                break;
+              }
+            }
           }
         };
         return match;

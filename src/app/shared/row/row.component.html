@@ -1,0 +1,12 @@
+<div *ngIf="encontrado">
+  <div *ngFor="let item of row">
+    <input [style.width]="input_width" *ngIf="item.type == 0" type="text" name="" value="{{item.data}}" disabled>
+    <input [style.width]="input_width" *ngIf="item.type == 1" type="text" name="" value="{{item.data}}">
+    <select [style.width]="width" *ngIf="item.type == 2">
+       <option  *ngFor="let item of item.data"   value="{{item.value}}">{{item.text}}</option>
+     </select>
+    <div *ngIf="item.type == 3">
+      <button [style.width]="width" *ngIf="item.data.type ==1" type="button">{{item.data.data}}</button>
+    </div>
+  </div>
+</div>

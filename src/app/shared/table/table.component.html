@@ -2,12 +2,15 @@
 <table>
   <thead>
     <tr>
-      <th *ngFor="let header of table.headers">{{header}}</th>
+      <!--th *ngFor="let header of table.headers">{{header}}</th-->
+      <app-header (orderColumna)="ordenar($event)"></app-header>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let row of filteredData">
-      <td *ngFor="let item of row">{{item}}</td>
+      <!--td *ngFor="let item of row">{{item}}</td-->
+        <app-row [row]="row"></app-row>
+
     </tr>
   </tbody>
 </table>

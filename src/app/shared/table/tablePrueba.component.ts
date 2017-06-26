@@ -1,4 +1,4 @@
-import { Component, ViewChild, OnInit } from '@angular/core';
+/*import { Component, ViewChild, OnInit } from '@angular/core';
 
 import { DataTableDirective } from 'angular-datatables';
 
@@ -31,4 +31,4 @@ export class DtInstanceComponent implements OnInit {
       }]
     };
   }
-}
+}*/
